@@ -10,7 +10,7 @@ function Footer() {
   });
 
   useEffect(() => {
-    fetch("https://api.github.com/repos/0xpriyanshu/Nextjs-portfolio")
+    fetch("https://api.github.com/repos/0xpriyanshu/0xpriyanshu")
       .then((response) => response.json())
       .then((json) => {
         const { stargazers_count, forks_count } = json;
@@ -25,7 +25,7 @@ function Footer() {
   return (
     <footer>
       <Link
-        href="https://github.com/0xpriyanshu/Nextjs-porfolio"
+        href="https://github.com/0xpriyanshu/0xpriyanshu"
         target="_blank"
         className="footer-link"
       >
