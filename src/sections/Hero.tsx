@@ -48,7 +48,7 @@ function Hero() {
       <div className="hero-image-container">
       {currentImage === 1 && (
         <img
-          src="/img1.png"
+          src="./img1.png"
           alt="Description of the first image"
           style={{
             position: "absolute",
@@ -61,7 +61,7 @@ function Hero() {
       )}
       {currentImage === 2 && (
         <img
-          src="/img2.png"
+          src="./img2.png"
           alt="Description of the second image"
           style={{
             position: "absolute",

@@ -10,7 +10,7 @@ function About() {
   const [currentImage, setCurrentImage] = useState("/New1.png");
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setCurrentImage(prevImage => prevImage === "/New1.png" ? "/New2.png" : "/New1.png");
+      setCurrentImage(prevImage => prevImage === "./New1.png" ? "./New2.png" : "./New1.png");
     }, 1000);
 
     return () => clearInterval(intervalId);

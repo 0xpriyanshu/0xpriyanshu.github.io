@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      image: "/project_1.jpg ",
+      image: "./project_1.jpg ",
       projectName: "Vidhan: The Legal Bot",
       projectLink: "https://github.com/0xpriyanshu/vidhan-the-legal-bot-",
       projectDescription:
@@ -26,7 +26,7 @@ function Projects() {
       },
     },
     {
-      image: "/project_2.png",
+      image: "./project_2.png",
       projectName: "Decem App Clone",
       projectLink: "https://decemdrinks.com/products/decem-10-gin",
       projectDescription:
@@ -44,7 +44,7 @@ function Projects() {
       },
     },
     {
-      image: "/project_3.jpg",
+      image: "./project_3.jpg",
       projectName: "UI & UX (Curry Club)",
       projectLink: "https://curryclubfrankfurt.de/",
       projectDescription:
