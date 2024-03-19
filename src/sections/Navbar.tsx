@@ -9,12 +9,12 @@ function Navbar() {
   const [navbarVisible, setNavbarVisible] = useState(false);
   const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
   const sectionLinks = [
-    { name: "ABOUT", link: "src/sections/About.tsx" },
-    { name: "EXPERIENCE", link: "src/sections/Experience.tsx" },
-    { name: "WORK", link: "src/sections/Projects.tsx" },
+    { name: "ABOUT", link: "About" },
+    { name: "EXPERIENCE", link: "Experience" },
+    { name: "WORK", link: "Projects" },
     {
       name: "CONTACT",
-      link: "src/sections/Contact.tsx",
+      link: "Contact",
     },
   ];
 
