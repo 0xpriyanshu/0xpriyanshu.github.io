@@ -1,5 +1,4 @@
 import Button from "@/components/Button";
-import Image from "next/image";
 import Logo from "@/components/Logo";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -63,7 +62,7 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-          <Link href="../components/Logo">
+          <Link href="./Logo">
             <Logo />
           </Link>
         </motion.div>
