@@ -44,7 +44,7 @@ function Projects() {
       },
     },
     {
-      image: "./project_3.jpg",
+      image: "./Project_3.jpg",
       projectName: "UI & UX (Curry Club)",
       projectLink: "https://curryclubfrankfurt.de/",
       projectDescription:

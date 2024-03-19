@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Email from "@/components/Email";
 import Loader from "@/components/Loader";
 import SocialIcons from "@/components/SocialIcons";
@@ -24,7 +25,7 @@ function Index() {
     <div className="app">
       <Head>
         <title>Priyanshu Kumar</title>
-        <link rel="shortcut icon" href="./favicon.png"/>
+        <link rel="shortcut icon" href="./Favicon.png"/>
       </Head>
       {showContent && (
         <>

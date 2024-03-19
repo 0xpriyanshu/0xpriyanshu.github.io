@@ -16,7 +16,7 @@ function Contact() {
       }}
     >
       <div className="imageisthis">
-        <img src="./grid.png" alt="newimage" />
+        <img src="./Grid.png" alt="newimage" />
       </div>
       <h2 className="contact-title">What&apos;s Next?</h2>
       <h2 className="contact-sub-title">Get In Touch</h2>
