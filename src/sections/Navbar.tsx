@@ -1,9 +1,5 @@
 import Button from "@/components/Button";
 import Logo from "@/components/Logo";
-import About from "./About";
-import Experience from "./Experience";
-import Work from "./Projects";
-import Contact from "./Contact";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CgClose } from "react-icons/cg";
@@ -15,7 +11,7 @@ function Navbar() {
   const sectionLinks = [
     { name: "ABOUT", link: "./About" },
     { name: "EXPERIENCE", link: "./Experience" },
-    { name: "WORK", link: "./Work" },
+    { name: "WORK", link: "./Projects" },
     {
       name: "CONTACT",
       link: "./Contact",
