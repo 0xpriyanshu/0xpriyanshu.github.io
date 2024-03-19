@@ -1,0 +1,18 @@
+.btn {
+  color: var(--theme-color);
+  padding: 0.75em 1em;
+  text-decoration: none;
+  border: 1px solid var(--theme-color);
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: var(--tsm);
+  outline: none;
+  transition: background-color 0.3s, color 0.3s; /* Add transition for smooth color change */
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--theme-color); /* Change background color on hover */
+  color: white; /* Change text color to white on hover */
+}
