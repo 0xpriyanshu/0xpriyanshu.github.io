@@ -63,7 +63,7 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-          <Link href="">
+          <Link href="./Logo.tsx">
             <Logo />
           </Link>
         </motion.div>
