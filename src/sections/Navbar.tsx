@@ -9,12 +9,12 @@ function Navbar() {
   const [navbarVisible, setNavbarVisible] = useState(false);
   const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
   const sectionLinks = [
-    { name: "ABOUT", link: "./About" },
-    { name: "EXPERIENCE", link: "./Experience" },
-    { name: "WORK", link: "./Work" },
+    { name: "ABOUT", link: "./About.tsx" },
+    { name: "EXPERIENCE", link: "./Experience.tsx" },
+    { name: "WORK", link: "./Work.tsx" },
     {
       name: "CONTACT",
-      link: "./Contact",
+      link: "./Contact.tsx",
     },
   ];
 
@@ -62,7 +62,7 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-          <Link href="./components/Logo">
+          <Link href="./Logo.tsx">
             <Logo />
           </Link>
         </motion.div>
