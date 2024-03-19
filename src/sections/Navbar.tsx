@@ -1,9 +1,5 @@
 import Button from "@/components/Button";
 import Logo from "@/components/Logo";
-import About from "@/sections/About";
-import Contact from "@/sections/Contact";
-import Projects from "@/sections/Projects";
-import Experience from "@/sections/Experience";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CgClose } from "react-icons/cg";
@@ -18,7 +14,7 @@ function Navbar() {
     { name: "WORK", link: "./Work" },
     {
       name: "CONTACT",
-      link: "#Contact",
+      link: "./Contact",
     },
   ];
 
@@ -66,7 +62,7 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-          <Link href="./Logo">
+          <Link href="./components/Logo">
             <Logo />
           </Link>
         </motion.div>
