@@ -1,5 +1,9 @@
 import Button from "@/components/Button";
 import Logo from "@/components/Logo";
+import About from "./About";
+import Experience from "./Experience";
+import Work from "./Projects";
+import Contact from "./Contact";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CgClose } from "react-icons/cg";
@@ -9,12 +13,12 @@ function Navbar() {
   const [navbarVisible, setNavbarVisible] = useState(false);
   const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
   const sectionLinks = [
-    { name: "ABOUT", link: "./About.tsx" },
-    { name: "EXPERIENCE", link: "./Experience.tsx" },
-    { name: "WORK", link: "./Work.tsx" },
+    { name: "ABOUT", link: "./About" },
+    { name: "EXPERIENCE", link: "./Experience" },
+    { name: "WORK", link: "./Work" },
     {
       name: "CONTACT",
-      link: "./Contact.tsx",
+      link: "./Contact",
     },
   ];
 
@@ -62,7 +66,7 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-          <Link href="../Logo.tsx">
+          <Link href="./Logo.tsx">
             <Logo />
           </Link>
         </motion.div>
