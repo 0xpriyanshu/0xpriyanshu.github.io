@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import Logo from "@/components/Logo";
+import Index from "@/pages";
 import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
@@ -112,7 +113,7 @@ function Navbar() {
                 }}
               >
                 <Link href={link} className="nav-items-list-item-link">
-                  <a>{name}</a>
+                  {name}
                 </Link>
               </motion.li>
             ))}
