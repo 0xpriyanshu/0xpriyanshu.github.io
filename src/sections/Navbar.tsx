@@ -1,10 +1,6 @@
 import Button from "@/components/Button";
 import Logo from "@/components/Logo";
-import Index from "@/pages";
-import About from "./About";
-import Experience from "./Experience";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import Index from "@/pages/index";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { CgClose } from "react-icons/cg";
