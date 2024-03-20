@@ -11,7 +11,7 @@ function Navbar() {
   const [responsiveNavVisible, setResponsiveNavVisible] = useState(false);
   const sectionLinks = [
     { name: "ABOUT", link: "/#about" },
-    { name: "EXPERIENCE", link: "/#experience." },
+    { name: "EXPERIENCE", link: "/#experience" },
     { name: "WORK", link: "/#projects" },
     {
       name: "CONTACT",
@@ -63,7 +63,7 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-          <Link href="./Logo.tsx">
+          <Link href="https://0xpriyanshu.github.io/0xpriyanshu">
             <Logo />
           </Link>
         </motion.div>
