@@ -112,7 +112,7 @@ function Navbar() {
                 }}
               >
                 <Link href={link} className="nav-items-list-item-link">
-                  {name}
+                  <a>{name}</a>
                 </Link>
               </motion.li>
             ))}
