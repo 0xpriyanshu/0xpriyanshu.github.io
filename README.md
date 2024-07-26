@@ -8,7 +8,7 @@ Welcome to my GitHub profile! I'm passionate about Machine Learning, AI, and Dee
 
 ## 🚀 Featured Projects
 
-### [5 Level Web Crawler Q/A model using LLM](https://gitextraction.streamlit.app/)
+### [5 Level Web Crawler Q/A model using LLM](https://github.com/0xpriyanshu/WebScrapper-LLM-Milvus)
 This access the ability to perform extensive web crawling up to a depth of 5 levels (parent link -> sub-link -> sub-link -> sub-link -> sub-link), create a vector database using MILVUS, and develop a question-answering system using LLM.
 
 ### [Quora question pair detection model| Kaggle](https://colab.research.google.com/drive/1EeP6uP2EhpLyw6KknzZTGzyi0IFwpwb9?usp=sharing)
