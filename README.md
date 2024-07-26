@@ -1,6 +1,6 @@
 # Hi there, I'm Priyanshu Kumar 👋
 
-[![Linkedin Follow](https://img.shields.io/Linkedin/follow/hs104208?style=social)](https://www.linkedin.com/in/priyanshukrs)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff)](https://www.linkedin.com/in/priyanshukrs)
 
 Welcome to my GitHub profile! I'm passionate about Machine Learning, AI, and Deep Learning. Here you'll find some of my projects and contributions in these areas. Feel free to explore and connect.
 
