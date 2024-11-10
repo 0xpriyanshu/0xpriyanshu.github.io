@@ -5,9 +5,10 @@ import { FiGitBranch } from "react-icons/fi";
 
 function Footer() {
   const [githubInfo, setGitHubInfo] = useState({
-    stars: null,
-    forks: null,
+    stars: 0,
+    forks: 0,
   });
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch("https://api.github.com/repos/0xpriyanshu/0xpriyanshu")
@@ -15,11 +16,15 @@ function Footer() {
       .then((json) => {
         const { stargazers_count, forks_count } = json;
         setGitHubInfo({
-          stars: stargazers_count,
-          forks: forks_count,
+          stars: stargazers_count || 0,
+          forks: forks_count || 0,
         });
       })
-      .catch((e) => console.error(e));
+      .catch((e) => {
+        console.error("Failed to fetch GitHub data:", e);
+        setGitHubInfo({ stars: 0, forks: 0 });
+      })
+      .finally(() => setLoading(false));
   }, []);
 
   return (
@@ -29,8 +34,10 @@ function Footer() {
         target="_blank"
         className="footer-link"
       >
-        <span className="footer-info">Designed and Built by Priyanshu Kumar.</span>
-        {githubInfo && (
+        <span className="footer-info">
+          Designed and Built by Priyanshu Kumar.
+        </span>
+        {!loading && (
           <div className="footer-git">
             <div className="footer-git-item">
               <FaRegStar className="footer-git-item-icon" />
@@ -42,6 +49,7 @@ function Footer() {
             </div>
           </div>
         )}
+        {loading && <span className="footer-loading">Loading stats...</span>}
       </Link>
     </footer>
   );
