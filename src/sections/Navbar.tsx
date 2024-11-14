@@ -54,7 +54,7 @@ function Navbar() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.3, ease: "easeInOut" }}
         >
-          <Link href="https://0xpriyanshu.github.io/0xpriyanshu">
+          <Link href="https://0xpriyanshu.github.io">
             <Logo />
           </Link>
         </motion.div>
